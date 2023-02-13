@@ -8,50 +8,5 @@
 
 <a href="https://www.instagram.com/cristiano/?hl=en">This is a link to cristiano Ronaldo's instagram page because I want everyone to know how great of  footballer he is 😂</a>
  And if you dont know who he is, this is him: <img src="https://media.gettyimages.com/id/962792726/photo/cristiano-ronaldo-of-real-madrid-poses-with-the-uefa-champions-league-trophy-following-the.jpg?s=612x612&amp;w=gi&amp;k=20&amp;c=t4cL9OFPUxKEBcEVsh4Oj6lXsdGMeT9vcO0hP4WTEeU=" alt="52,939 Cristiano Ronaldo Real Madrid Photos and Premium High ..."/>
- <p>I also created a penalty shootout game and here it is:</p>
- <html>
-<head>
-	<title>Penalty Shootout Game</title>
-	<script src="penalty.js"></script>
-</head>
-<body>
-	<header>
-		<h1>Penalty Shootout Game</h1>
-	</header>
-	<main>
-		<section id="game-board">
-			<table>
-				<tr>
-					<th>Player</th>
-					<th>1</th>
-					<th>2</th>
-					<th>3</th>
-					<th>4</th>
-					<th>5</th>
-				</tr>
-				<tr>
-					<td>Goalkeeper</td>
-					<td id="gk1"></td>
-					<td id="gk2"></td>
-					<td id="gk3"></td>
-					<td id="gk4"></td>
-					<td id="gk5"></td>
-				</tr>
-				<tr>
-					<td>Player</td>
-					<td><button onclick="kick(1)">Kick!</button></td>
-					<td><button onclick="kick(2)">Kick!</button></td>
-					<td><button onclick="kick(3)">Kick!</button></td>
-					<td><button onclick="kick(4)">Kick!</button></td>
-					<td><button onclick="kick(5)">Kick!</button></td>
-				</tr>
-			</table>
-			<p>Score: <span id="score">0-0</span></p>
-			<p>Last kick: <span id="result">-</span></p>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Penalty Shootout Game</p>
-	</footer>
 </body>
 </html>
